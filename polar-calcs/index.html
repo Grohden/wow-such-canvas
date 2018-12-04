@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Polar calcs</title>
+</head>
+<link href="./index.css" rel="style-css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<body>
+  <canvas id="polarCanvas"></canvas>
+  <div>Raio<input id="radius" type="number" min="-200" value="200" step="10" /><button id="autoradius">Auto</button></div><br />
+  <div>Angulo<input id="angle" type="number" min="-720" max="720" value="360" step="5" /><button id="autoangle">Auto</button></div>
+  <div>
+    <p id="textangle" type="text"></p>
+    <p id="textradius" type="text"></p>
+  </div>
+  <div><input id="trace" type="checkbox" />Trace</div>
+  <div><input id="resetRadius" type="checkbox" />Reset radius</div>
+</body>
+<script src="./polar-calcs.js"></script>
+</html>

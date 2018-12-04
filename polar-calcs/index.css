@@ -1,0 +1,7 @@
+body{
+  height:100%;
+}
+
+body #polarCanvas {
+  border:1px solid black;
+}
